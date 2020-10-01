@@ -1,12 +1,12 @@
 module.exports = {
   title: 'EzGitDoc',
   tagline: 'documentation',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://to-be-determined.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
   organizationName: 'trolit', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'EzGitDoc-documentation', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: false,
     navbar: {
@@ -30,13 +30,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/trolit/EzGitDoc-documentation/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
