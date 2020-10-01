@@ -10,11 +10,11 @@ title: Quick start
 </p>
 
 <p align="justify">
-EzGitDoc interface is split into two sections. Elements that can be created on page are listed in the sidebar on the left. Area with white border is a place where all rendered elements are stored during process of making prototype.
+EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area with white border is a place where all rendered elements are stored during process of making prototype.
 </p>
 
 :::note
-Clicking one of the elements from sidebar or using exact key combination trigger modal in which you will need to pass some information in order to create element.
+Clicking one of the elements from sidebar or using exact key combination trigger modal in which you will need to pass some information in order to create chosen element.
 :::
 
 ### 2. Tools
@@ -24,7 +24,7 @@ Clicking one of the elements from sidebar or using exact key combination trigger
 </p>
 
 <p align="justify">
-To reset prototype(clear all created elements) you need to click red button placed below EzGitDoc logo in the sidebar. This operation needs to be confirmed, so don't worry if you click it by mistake. 
+To reset prototype(clear all created elements) use red button placed below EzGitDoc logo in the sidebar section. This operation needs to be confirmed, so don't worry if you click it by mistake. 
 <br/><br/>
 In the bottom part of the sidebar there are 4 buttons(icons) that perform different operations. First one(eye icon) allows you to close sidebar to preview prototype, double up/down arrow on click slide to the top/bottom of the project. Last one(gear) opens modal with settings that can be adjusted.  
 </p>
@@ -38,7 +38,7 @@ In the bottom part of the sidebar there are 4 buttons(icons) that perform differ
 ### 4. Error Handling
 
 <p align="justify">
-Before elements are created required fields are validated. If given value is incompatible, empty or unexpected, notification will appear in the left top corner with details why element wasn't created. Element won't be created until errors are fixed. 
+Before elements are created, required fields are validated. If given value is incompatible, empty or unexpected, notification will appear in the left top corner with details why element wasn't created. Element won't be created until errors are fixed. 
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ Before elements are created required fields are validated. If given value is inc
 </p>
 
 <p align="justify">
-If you want to fill in data during prototype creation you can do this by clicking left button(with test-tube icon) placed next to the element you wish to update. After that, modal will appear where you will be able to update element contents.
+If you want to fill in data during prototype creation you can do this by clicking left button(with test-tube icon), placed next to the element you wish to update. After that, modal will appear where you will be able to update element contents.
 </p>
 
 <p align="center">
@@ -60,13 +60,13 @@ If you want to fill in data during prototype creation you can do this by clickin
 </p>
 
 :::tip
-If you plan on making more than one change it's worth to use update button oftenly because if you click outside the modal it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from current element state. 
+If you plan on making more than one change it's worth to use update button oftenly because if you click outside the modal it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from element's last state. 
 :::
 
 ### 6. Swapping & removing elements
 
 <p align="justify">
-If you want to swap elements positions you can do this by clicking with mouse button on the element you wish to move and dragging until reaching desired position.
+If you want to swap elements positions, you can do this by clicking with mouse button on the element you wish to move and dragging until reaching desired position.
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@ If you want to swap elements positions you can do this by clicking with mouse bu
 </p>
 
 :::note
-To remove certain element, use red button(with white cross icon) that is placed next to it(on the right side).
+To remove certain element, use red button(with white cross icon) that is placed on the right side.
 :::
 
 ### 7. Getting output
@@ -84,5 +84,5 @@ To remove certain element, use red button(with white cross icon) that is placed 
 </p>
 
 <p align="justify">
-In order to be able to generate output for *.md file, you need to have at least one element created. If you do, you will notice button in the right top corner of the page. It will generate scheme output on click, showing results in modal like in the example below.
+In order to be able to generate output for *.md file, you need to have at least one element created. If you do, you will notice button in the right top corner of the page called <code>Generate</code>. It will generate scheme output on click, showing results in modal like in the example above.
 </p>

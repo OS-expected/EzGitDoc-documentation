@@ -4,7 +4,7 @@ title: Demonstration
 ---
 
 <p align="justify">
-With EzGitDoc it's really simple and quick to create document for repository. Below you will find single example on how that process can look like. Used elements: image, label(<a href="https://shields.io/">Shields.io</a>), text, list, code, table with images.
+With EzGitDoc it's really simple and quick to create document for repository. Below you will find single example on how that process can look like. Used elements: image, badge(<a href="https://shields.io/">Shields.io</a>), text, list, code, table with images.
 </p>
 
 ### 1. Design prototype

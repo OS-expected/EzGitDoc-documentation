@@ -6,7 +6,7 @@ title: Quickbuilder
 ### Definition 
 
 <p align="justify">
-Quickbuilder is small tool that comes with EzGitDoc. It allows to create prototypes much quicker at cost of no preview available on EzGitDoc page and less options at it's current state(v1.0). To access it, scroll down sidebar section until seeing Quickbuilder reference. 
+Quickbuilder is small, handy tool that comes with EzGitDoc. It allows to create prototypes much quicker at cost of no preview available on EzGitDoc page and less options at it's current state(v1.0). To access it, scroll down sidebar section until seeing Quickbuilder reference. 
 </p>
 
 <p align="center">
