@@ -4,23 +4,29 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'trolit', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
-      title: 'EzGitDoc - documentation'
+      title: 'EzGitDoc-docs'
     },
     footer: {
       style: 'dark',
       copyright: `EzGitDoc documentation built with Docusaurus`,
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
+    }
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
