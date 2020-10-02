@@ -3,10 +3,12 @@ id: doc3
 title: Quick start
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ### 1. UI
 
 <p align="center">
-<img src="../static/img/quickStart/1.png" alt="Quick start - 01"/>
+<img src={useBaseUrl('img/quickStart/1.png')} alt="Quick start - 01"/>
 </p>
 
 <p align="justify">
@@ -20,7 +22,7 @@ Clicking one of the elements from sidebar or using exact key combination trigger
 ### 2. Tools
 
 <p align="center">
-<img src="../static/img/quickStart/2.png" alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/2.png')} alt="Quick start - 02"/>
 </p>
 
 <p align="justify">
@@ -32,7 +34,7 @@ In the bottom part of the sidebar there are 4 buttons(icons) that perform differ
 ### 3. Settings
 
 <p align="center">
-<img src="../static/img/quickStart/3.png" alt="Quick start - 03" height="400px"/>
+<img src={useBaseUrl('img/quickStart/3.png')} alt="Quick start - 03" height="400px"/>
 </p>
 
 ### 4. Error Handling
@@ -42,13 +44,13 @@ Before elements are created, required fields are validated. If given value is in
 </p>
 
 <p align="center">
-<img src="../static/img/quickStart/4.png" alt="Quick start - 04"/>
+<img src={useBaseUrl('img/quickStart/4.png')} alt="Quick start - 04"/>
 </p>
 
 ### 5. Updating content
 
 <p align="center">
-<img src="../static/img/quickStart/5.png" alt="Quick start - 05"/>
+<img src={useBaseUrl('img/quickStart/5.png')} alt="Quick start - 05"/>
 </p>
 
 <p align="justify">
@@ -56,7 +58,7 @@ If you want to fill in data during prototype creation you can do this by clickin
 </p>
 
 <p align="center">
-<img src="../static/img/quickStart/6.png" alt="Quick start - 06"/>
+<img src={useBaseUrl('img/quickStart/6.png')} alt="Quick start - 06"/>
 </p>
 
 :::tip
@@ -80,7 +82,7 @@ To remove certain element, use red button(with white cross icon) that is placed 
 ### 7. Getting output
 
 <p align="center">
-<img src="../static/img/quickStart/7.png" alt="Quick start - 07"/>
+<img src={useBaseUrl('img/quickStart/7.png')} alt="Quick start - 07"/>
 </p>
 
 <p align="justify">

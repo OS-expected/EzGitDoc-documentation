@@ -3,6 +3,8 @@ id: doc5
 title: Quickbuilder
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ### Definition 
 
 <p align="justify">
@@ -10,13 +12,13 @@ Quickbuilder is small, handy tool that comes with EzGitDoc. It allows to create 
 </p>
 
 <p align="center">
-<img src="../static/img/quickBuilder/1.png" alt="Quickbuilder - 01" height="120px"/>
+<img src={useBaseUrl('img/quickBuilder/1.png')} alt="Quickbuilder - 01" height="120px"/>
 </p>
 
 ### Presentation
 
 <p align="center">
-<img src="../static/img/quickBuilder/2.png" alt="Quickbuilder - 02" width="550px"/>
+<img src={useBaseUrl('img/quickBuilder/2.png')} alt="Quickbuilder - 02" width="550px"/>
 </p>
 
 ### Usage 

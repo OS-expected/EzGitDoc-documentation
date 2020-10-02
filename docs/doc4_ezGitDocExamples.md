@@ -3,6 +3,8 @@ id: doc4
 title: Examples
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 <p align="justify">
 Here you will find some examples on how each element is being displayed on EzGitDoc page and how generated code looks in *.md file. Code samples are not included as with EzGitDoc it's very simple to create them. Most are generated in HTML tags but not all(as mentioned in the first case) like list. In the near future I plan to add setting that gives ability to choose between md and html.
 </p>
@@ -13,7 +15,7 @@ Here you will find some examples on how each element is being displayed on EzGit
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e1.png" alt="Example 01"/>
+<img src={useBaseUrl('img/examples/e1.png')} alt="Example 01"/>
 </p>
 </blockquote>
 
@@ -21,7 +23,7 @@ Here you will find some examples on how each element is being displayed on EzGit
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e2.png" alt="Example 02" height="60px"/>
+<img src={useBaseUrl('img/examples/e2.png')} alt="Example 02" height="60px"/>
 </p>
 </blockquote>
 
@@ -31,7 +33,7 @@ Here you will find some examples on how each element is being displayed on EzGit
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e3.png" alt="Example 03"/>
+<img src={useBaseUrl('img/examples/e3.png')} alt="Example 03"/>
 </p>
 </blockquote>
 
@@ -39,7 +41,7 @@ Here you will find some examples on how each element is being displayed on EzGit
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e4.png" alt="Example 04" height="100px"/>
+<img src={useBaseUrl('img/examples/e4.png')} alt="Example 04" height="100px"/>
 </p>
 </blockquote>
 
@@ -49,7 +51,7 @@ EzGitDoc is using HTML &lt;h&gt; tags to create headers in *.md file but it's al
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e5.png" alt="Example 05" height="150px"/>
+<img src={useBaseUrl('img/examples/e5.png')} alt="Example 05" height="150px"/>
 </p>
 </blockquote>
 
@@ -59,7 +61,7 @@ EzGitDoc is using HTML &lt;h&gt; tags to create headers in *.md file but it's al
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e6.png" alt="Example 06" height="150px"/>
+<img src={useBaseUrl('img/examples/e6.png')} alt="Example 06" height="150px"/>
 </p>
 </blockquote>
 
@@ -67,7 +69,7 @@ EzGitDoc is using HTML &lt;h&gt; tags to create headers in *.md file but it's al
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e7.png" alt="Example 07" height="150px"/>
+<img src={useBaseUrl('img/examples/e7.png')} alt="Example 07" height="150px"/>
 </p>
 </blockquote>
 
@@ -77,7 +79,7 @@ EzGitDoc is using HTML &lt;h&gt; tags to create headers in *.md file but it's al
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e8.png" alt="Example 08"/>
+<img src={useBaseUrl('img/examples/e8.png')} alt="Example 08"/>
 </p>
 </blockquote>
 
@@ -85,7 +87,7 @@ EzGitDoc is using HTML &lt;h&gt; tags to create headers in *.md file but it's al
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e9.png" alt="Example 09" height="35px"/>
+<img src={useBaseUrl('img/examples/e9.png')} alt="Example 09" height="35px"/>
 </p>
 </blockquote>
 
@@ -99,7 +101,7 @@ You can also make hyperlink by using Text element and anchor tag. If you want th
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e10.png" alt="Example 10"/>
+<img src={useBaseUrl('img/examples/e10.png')} alt="Example 10"/>
 </p>
 </blockquote>
 
@@ -107,7 +109,7 @@ You can also make hyperlink by using Text element and anchor tag. If you want th
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e11.png" alt="Example 11" height="150px"/>
+<img src={useBaseUrl('img/examples/e11.png')} alt="Example 11" height="150px"/>
 </p>
 </blockquote>
 
@@ -117,7 +119,7 @@ Example shows two(out of three) types of list that you can create. Typical one w
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e12.png" alt="Example 12" height="150px"/>
+<img src={useBaseUrl('img/examples/e12.png')} alt="Example 12" height="150px"/>
 </p>
 </blockquote>
 
@@ -131,7 +133,7 @@ By adding extra breakline, you can put description of each advantage below bold 
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e13.png" alt="Example 13" height="180px"/>
+<img src={useBaseUrl('img/examples/e13.png')} alt="Example 13" height="180px"/>
 </p>
 </blockquote>
 
@@ -139,7 +141,7 @@ By adding extra breakline, you can put description of each advantage below bold 
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e14.png" alt="Example 14" height="180px"/>
+<img src={useBaseUrl('img/examples/e14.png')} alt="Example 14" height="180px"/>
 </p>
 </blockquote>
 
@@ -149,7 +151,7 @@ In the image 2 table types were presented. Typical one with text and second hold
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e15.png" alt="Example 15" height="220px"/>
+<img src={useBaseUrl('img/examples/e15.png')} alt="Example 15" height="220px"/>
 </p>
 </blockquote>
 
@@ -159,7 +161,7 @@ In the image 2 table types were presented. Typical one with text and second hold
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e16.png" alt="Example 16" height="120px"/>
+<img src={useBaseUrl('img/examples/e16.png')} alt="Example 16" height="120px"/>
 </p>
 </blockquote>
 
@@ -167,7 +169,7 @@ In the image 2 table types were presented. Typical one with text and second hold
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e16_1.png" alt="Example 16.1" height="120px"/>
+<img src={useBaseUrl('img/examples/e16_1.png')} alt="Example 16.1" height="120px"/>
 </p>
 </blockquote>
 
@@ -181,7 +183,7 @@ Keep in mind that in the text element you can use HTML tags like anchor(a).
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e17.png" alt="Example 17"/>
+<img src={useBaseUrl('img/examples/e17.png')} alt="Example 17"/>
 </p>
 </blockquote>
 
@@ -189,7 +191,7 @@ Keep in mind that in the text element you can use HTML tags like anchor(a).
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e18.png" alt="Example 18" height="110px"/>
+<img src={useBaseUrl('img/examples/e18.png')} alt="Example 18" height="110px"/>
 </p>
 </blockquote>
 
@@ -197,7 +199,7 @@ Keep in mind that in the text element you can use HTML tags like anchor(a).
 
 <blockquote>
 <p>
-<img src="../static/img/examples/e19.png" alt="Example 19" height="60px"/>
+<img src={useBaseUrl('img/examples/e19.png')} alt="Example 19" height="60px"/>
 </p>
 </blockquote>
 
