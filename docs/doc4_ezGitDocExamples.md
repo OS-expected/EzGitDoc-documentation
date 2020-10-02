@@ -1,6 +1,7 @@
 ---
 id: doc4
 title: Examples
+slug: /examples
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

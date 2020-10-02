@@ -1,6 +1,7 @@
 ---
 id: doc2
 title: Demonstration
+slug: /demonstration
 ---
 
 <p align="justify">

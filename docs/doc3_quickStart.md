@@ -1,6 +1,7 @@
 ---
 id: doc3
 title: Quick start
+slug: /quick-start
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

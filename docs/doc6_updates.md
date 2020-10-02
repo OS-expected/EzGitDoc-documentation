@@ -1,6 +1,7 @@
 ---
 id: doc6
 title: Updates
+slug: /updates
 ---
 
 ### v1.7.1 (11.09.2020)

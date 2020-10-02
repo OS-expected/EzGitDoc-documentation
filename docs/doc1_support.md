@@ -1,6 +1,7 @@
 ---
 id: doc1
 title: Support
+slug: /support
 ---
 
 #### Browser
