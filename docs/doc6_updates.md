@@ -4,6 +4,12 @@ title: Updates
 slug: /updates
 ---
 
+### v1.7.2 (02.10.2020)
+
+- removed from master branch quickstart images except gif. <br/>
+- removed documentation from EzGitDoc and added redirections to docs created in Docusaurus2. <br/>
+- fixed no closing slash for img tag. <br/>
+
 ### v1.7.1 (11.09.2020)
 
 - Reduced padding on Generate Code button, brought back elegant style, added icon. <br/>
