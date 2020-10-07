@@ -10,7 +10,7 @@ module.exports = {
   themeConfig: {
     sidebarCollapsible: false,
     navbar: {
-      title: 'EzGitDoc-docs'
+      title: 'EzGitDoc - docs'
     },
     footer: {
       style: 'dark',

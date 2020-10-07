@@ -4,6 +4,24 @@ title: Updates
 slug: /updates
 ---
 
+### v1.7.3 (07.10.2020) 
+
+- Removed hardcoded URL for image table generation.
+- Extended credits with date.
+- Implemented update option for Image Table - change all images sizes at once.
+- Minor createHeader() function code improvement.
+- Implemented new table options: kbd and linked kbd.
+- Changed color for active list group item.
+- Moved h/image/table elements previews to badge with icon.
+- Refactored ezLogicTranslator.js file.
+- Fixed shields.io default badge: plastic => flat.
+- Moved docs button near reset.
+- Added reference to GitHub repository through icon in the sidebar.
+- Updated tool logo.
+- Fixed naming convention Label => Badge.
+- Removed documentation from EzGitDoc tool page.
+- Fixed missing ending slash for element: image.
+
 ### v1.7.2 (02.10.2020)
 
 - removed from master branch quickstart images except gif. <br/>
