@@ -34,6 +34,10 @@ In the bottom part of the sidebar there are 4 buttons(icons) that perform differ
 
 ### 3. Settings
 
+<p align="justify">
+Personalize how EzGitDoc is working via settings panel.
+</p>
+
 <p align="center">
 <img src={useBaseUrl('img/quickStart/3.png')} alt="Quick start - 03" height="400px"/>
 </p>

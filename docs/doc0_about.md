@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 <p align="justify">
-EzGitDoc is WYSIWYG tool designed to improve Git documentation experience. It allows to generate <code>*.md</code> file structure within projected template at <a href="https://trolit.github.io/EzGitDoc/"><em>https://trolit.github.io/EzGitDoc/</em></a>. You don't need to install anything as the project is setup and ready to use on github-pages. Every element's data can be modified after rendering it on page(except table of images in it's current). EzGitDoc leaves you opportunity to make prototype of your document and fill in data, which later only needs to be polished, reducing the risk of problems and necessity to fight with searching cause of element(s) not being rendered as expected.
+EzGitDoc is open source, WYSIWYG tool designed to improve Git documentation experience. It allows to generate <code>*.md</code> file structure within projected template at <a href="https://trolit.github.io/EzGitDoc/"><em>https://trolit.github.io/EzGitDoc/</em></a>. You don't need to install anything as the project is setup and ready to use on github-pages. Every element's data can be modified after rendering it on page except image/kbd/linked kbd table(still with those table types you can quickly change images resolutions). Make prototype of your document, fill in data whenever you want, get ouput and polish it to your needs. Reduce to 0 the risk of elements not being rendered as expected with EzGitDoc :)
 </p>
 
 ### Pros of EzGitDoc

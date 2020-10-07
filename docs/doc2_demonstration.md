@@ -35,11 +35,11 @@ private Integer addTwoIntegers(Integer a, Integer b) {
 ```
 
 <p align="center">
-<img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/> 
-<img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/> 
+<kbd><img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/></kbd>
+<kbd><img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/></kbd>
 <br/> 
-<img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/> 
-<img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/> 
+<kbd><img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/></kbd> 
+<kbd><img src="https://place-hold.it/250x140" alt="alt text" width="250" height="140"/></kbd> 
 </p>
 
 Template created on 7/10/2020 <br/> in <a href="https://github.com/trolit/EzGitDoc">EzGitDoc</a>
@@ -53,13 +53,6 @@ Template created on 7/10/2020 <br/> in <a href="https://github.com/trolit/EzGitD
 
 ### 4. Adjust & commit :)
 
-```
-Changes:
-- increased banner image size 
-- removed subject part from badge
-- filled in images in table and reduced their width
-```
-
 <p align="center">
-<img src={useBaseUrl('img/demonstration/d03.PNG')} alt="EzGitDoc Demonstration - 3" height="450px"/>
+<img src={useBaseUrl('img/demonstration/d03.png')} alt="EzGitDoc Demonstration - 3" height="450px"/>
 </p>
