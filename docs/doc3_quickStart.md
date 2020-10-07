@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 <p align="justify">
-EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area with white border is a place where all rendered elements are stored during process of making prototype.
+EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area that take the most space is a place where all rendered elements are stored during the process of making prototype.
 </p>
 
 :::note
@@ -29,7 +29,7 @@ Clicking one of the elements from sidebar or using exact key combination trigger
 <p align="justify">
 To reset prototype(clear all created elements) use red button placed below EzGitDoc logo in the sidebar section. This operation needs to be confirmed, so don't worry if you click it by mistake. 
 <br/><br/>
-In the bottom part of the sidebar there are 4 buttons(icons) that perform different operations. First one(eye icon) allows you to close sidebar to preview prototype, double up/down arrow on click slide to the top/bottom of the project. Last one(gear) opens modal with settings that can be adjusted.  
+In the bottom part of the sidebar there are 4 buttons(icons) that perform different operations. First one(eye icon) allows you to close sidebar to preview prototype without sidebar, double up/down arrow on click, slide to the top/bottom of the project. Last one(gear) opens modal with settings that can be adjusted.  
 </p>
 
 ### 3. Settings
@@ -55,21 +55,21 @@ Before elements are created, required fields are validated. If given value is in
 </p>
 
 <p align="justify">
-If you want to fill in data during prototype creation you can do this by clicking left button(with test-tube icon), placed next to the element you wish to update. After that, modal will appear where you will be able to update element contents.
+If you want to update created element, for e.g. fill in data, you can do this by clicking left button(with test-tube icon), placed next to the element you wish to update. After that, modal will appear where you will be able to make allowed changes.
 </p>
 
 <p align="center">
 <img src={useBaseUrl('img/quickStart/6.png')} alt="Quick start - 06"/>
 </p>
 
-:::tip
-If you plan on making more than one change it's worth to use update button oftenly because if you click outside the modal it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from element's last state. 
+:::note
+If you plan on making more than one change it's worth to use update button frequently because if you click outside of the modal it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from it's last saved state. 
 :::
 
 ### 6. Swapping & removing elements
 
 <p align="justify">
-If you want to swap elements positions, you can do this by clicking with mouse button on the element you wish to move and dragging until reaching desired position.
+If you want to swap elements positions, you can do this by clicking with mouse button on the element you wish to move and drag until reaching desired position.
 </p>
 
 <p align="center">

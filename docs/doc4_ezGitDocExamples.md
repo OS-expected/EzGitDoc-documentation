@@ -5,205 +5,365 @@ slug: /examples
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <p align="justify">
-Here you will find some examples on how each element is being displayed on EzGitDoc page and how generated code looks in *.md file. Code samples are not included as with EzGitDoc it's very simple to create them. Most are generated in HTML tags but not all(as mentioned in the first case) like list. In the near future I plan to add setting that gives ability to choose between md and html.
+Here you will find some examples on how each element is being displayed on EzGitDoc page and how generated code looks in *.md file. Most of them are generated in HTML tags but not all like text list, table. Currently there are no plans on separating those approaches as with raw markdown you cannot for example set image width/height or align it. 
 </p>
 
-### Code
+## 1. Code
 
-#### EzGitDoc
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e1.png')} alt="Example 01"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e2.png')} alt="Example 02"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
 
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e1.png')} alt="Example 01"/>
-</p>
-</blockquote>
+## 2. Header
 
-#### Result
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e3.png')} alt="Example 01"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e4.png')} alt="Example 02" height="120px"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
 
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e2.png')} alt="Example 02" height="60px"/>
-</p>
-</blockquote>
-
-### Header
-
-#### EzGitDoc
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e3.png')} alt="Example 03"/>
-</p>
-</blockquote>
-
-#### Result
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e4.png')} alt="Example 04" height="100px"/>
-</p>
-</blockquote>
+:::note
 
 <p align="justify">
-EzGitDoc is using HTML &lt;h&gt; tags to create headers in *.md file but it's also possible to use hashtag markdown. HTML tags are 'slightly better' for me due to the fact that they can be used inside other tags like paragraphs while hashtags not. Check the image below. 
+EzGitDoc is using &lt;h&gt; tags to create headers. It's also possible to use hashtag markdown. HTML tags are 'slightly better' due to the fact that they can be used inside other HTML tags like paragraphs while hashtags not.
 </p>
 
-<blockquote>
-<p>
 <img src={useBaseUrl('img/examples/e5.png')} alt="Example 05" height="150px"/>
-</p>
-</blockquote>
 
-### Image
-
-#### EzGitDoc
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e6.png')} alt="Example 06" height="150px"/>
-</p>
-</blockquote>
-
-#### Result
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e7.png')} alt="Example 07" height="150px"/>
-</p>
-</blockquote>
-
-### Link
-
-#### EzGitDoc
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e8.png')} alt="Example 08"/>
-</p>
-</blockquote>
-
-#### Result
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e9.png')} alt="Example 09" height="35px"/>
-</p>
-</blockquote>
-
-:::note
-You can also make hyperlink by using Text element and anchor tag. If you want that single link to be aligned center or right, you can do this using align attribute. 
 :::
 
-### List
+## 3. Image
 
-#### EzGitDoc
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e6.png')} alt="Example 06" height="200px"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e7.png')} alt="Example 07" height="200px"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
 
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e10.png')} alt="Example 10"/>
-</p>
-</blockquote>
-
-#### Result
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e11.png')} alt="Example 11" height="150px"/>
-</p>
-</blockquote>
-
-<p align="justify">
-Example shows two(out of three) types of list that you can create. Typical one with point or custom one(with icon). Third one can be used to for e.g. describe pros in short with icons. Below is old example from EzGitDoc.
-</p>
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e12.png')} alt="Example 12" height="150px"/>
-</p>
-</blockquote>
+Source: <a href="https://cdn.pixabay.com/photo/2017/08/21/22/21/camel-2667153_1280.jpg">Pixabay</a>
 
 :::note
-By adding extra breakline, you can put description of each advantage below bold title. 
+If you didn't prepare images yet, use blank function and EzGitDoc will use placeholder images which can be overwritten when needed.
 :::
 
-### Table
+## 4. Link
 
-#### EzGitDoc
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e13.png')} alt="Example 13" height="180px"/>
-</p>
-</blockquote>
-
-#### Result
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e14.png')} alt="Example 14" height="180px"/>
-</p>
-</blockquote>
-
-<p align="justify">
-In the image 2 table types were presented. Typical one with text and second holding images. Sometimes we want to share some screenshots if it's game repository, library or front-end part example etc. I suggest using table to make fancy gallery. If you plan to make one, remember that you need to have same resolution images and then find best width x height composition(or accept unequal rows/image stretches). It costs some time but the effect is very satisfying. Example below from <a href="https://github.com/trolit/projectZero">Project Zero</a> repository:
-</p>
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e15.png')} alt="Example 15" height="220px"/>
-</p>
-</blockquote>
-
-### Text
-
-#### EzGitDoc
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e16.png')} alt="Example 16" height="120px"/>
-</p>
-</blockquote>
-
-#### Result
-
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e16_1.png')} alt="Example 16.1" height="120px"/>
-</p>
-</blockquote>
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e8.png')} alt="Example 08"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e9.png')} alt="Example 09" height="45px"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
 
 :::note
-Keep in mind that in the text element you can use HTML tags like anchor(a).
+If you want that single link to be aligned, wrap it inside paragraph and use align attribute.
 :::
 
-### Label
+## 5. List
 
-#### EzGitDoc
+### 5.1. Iconic
 
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e17.png')} alt="Example 17"/>
-</p>
-</blockquote>
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'},
+    {label: 'Alt', value: 'Alt'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_0.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_1.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Alt">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_6.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
 
-#### Result
+:::note
+By adding extra linebreak, you can put description of each advantage below title and get output like shown in the 'Alt' tab. 
+:::
 
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e18.png')} alt="Example 18" height="110px"/>
-</p>
-</blockquote>
+### 5.2. Normal
 
-#### Result (left whitespace between each badge)
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_2.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_3.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
 
-<blockquote>
-<p>
-<img src={useBaseUrl('img/examples/e19.png')} alt="Example 19" height="60px"/>
-</p>
-</blockquote>
+### 5.3. Link
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_4.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e10_5.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
+
+
+## 6. Table
+
+### 6.1 Text
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e11_0.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e11_1.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
+
+### 6.2 Image
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e11_2.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e11_3.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
+
+### 6.3 Kbd / Linked Kbd
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e11_4.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e11_5.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
+
+##### Kbd single element
+
+```html
+<kbd><img src="https://place-hold.it/100x100" alt="alt text" width="100" height="100"/></kbd> 
+```
+
+##### Linked Kbd single element
+
+```html
+<a href="https://addurl/"><kbd><img src="https://place-hold.it/100x100" alt="alt text" width="100" height="100"/></kbd></a> 
+```
 
 <p align="justify">
-Labels are great to give short information. EzGitDoc allows to make static badges but you can make dynamic ones by yourself or use predefined. Visit <a href="https://shields.io/">Shields.io</a> to learn more. If you want labels to stay in one line, simply leave just one whitespace between them. 
+Use kbd table to display images and when someone click's them they will appear in fullscreen. Linked kbd can be useful if you want to redirect user to repository or different page. 
+</p>
+
+## 7. Text
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e16.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e16_1.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
+
+:::note
+In the text element you can use HTML tags to extend it like anchor(a), header(h), emphasis(em).
+:::
+
+## 8. Badge
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'Preview', value: 'EzGitDoc'},
+    {label: 'Result', value: 'Result'},
+    {label: 'Alt', value: 'Alt'}
+  ]}>
+  <TabItem value="EzGitDoc">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e17_0.png')} alt="Example 10.0"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Result">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e17_1.png')} alt="Example 09"/>
+    </p>
+  </blockquote>
+  </TabItem>
+  <TabItem value="Alt">
+  <blockquote>
+    <p>
+        <img src={useBaseUrl('img/examples/e17_2.png')} alt="Example 09" height="30px"/>
+    </p>
+  </blockquote>
+  </TabItem>
+</Tabs>
+
+<p align="justify">
+Labels are great to give short information. EzGitDoc allows to make static badges but you can make dynamic ones by yourself or use predefined. Visit <a href="https://shields.io/">Shields.io</a> to learn more. If you want labels to stay in one line like in Alt tab demonstration, simply leave just one whitespace between them. 
 </p>
