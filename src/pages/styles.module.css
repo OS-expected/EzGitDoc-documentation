@@ -67,8 +67,6 @@
   margin-right: auto;
 }
 
-.getStartedBtn {
-  display: flex;
-  justify-content: center;
+.getStartedBtn, .runToolBtn {
   text-decoration: none !important;
 }

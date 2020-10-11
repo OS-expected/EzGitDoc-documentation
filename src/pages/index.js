@@ -137,7 +137,7 @@ function Home() {
                   Open source, WYSIWYG tool extended with personal ideas to improve Git documentation experience. Design and edit md file prototype without need to manipulate code structure. EzGitDoc generates code for you :)
                 </p>
                 <Link
-                  to={useBaseUrl('docs/')}
+                  to={useBaseUrl('ezgitdoc-about')}
                   className={styles.getStartedBtn}>
                   <AwesomeButton
                     ripple={false}
@@ -148,6 +148,17 @@ function Home() {
                     Get Started
                   </AwesomeButton>
                 </Link>
+                &nbsp;&nbsp;
+                <AwesomeButton
+                    ripple={true}
+                    size="small"
+                    type="github"
+                    className={styles.runToolBtn}
+                    href="https://trolit.github.io/EzGitDoc/"
+                    target="_blank"
+                >
+                    EzGitDoc
+                </AwesomeButton>
               </div>
             </div>
           </div>
