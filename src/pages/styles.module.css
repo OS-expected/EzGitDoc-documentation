@@ -5,7 +5,7 @@
  * and scoped locally.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 
 .heroBanner {
   padding: 4rem 0;
@@ -43,8 +43,10 @@
   text-align: justify;
   font-size: 80%;
   padding: 2rem;
-  font-family: 'Raleway', sans-serif;
-  background-color: #391282;
+  font-family: 'Sen', sans-serif;
+  background-color: #6231bd;
+  line-break: normal;
+  height: 100%;
 }
 
 .sliderBar {
@@ -55,4 +57,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.getStartedBtn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none !important;
 }

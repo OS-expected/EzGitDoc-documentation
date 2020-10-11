@@ -8,6 +8,8 @@ import styles from './styles.module.css';
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSliderStyles from 'react-awesome-slider/src/core/styles.scss';
+import { AwesomeButton } from "react-awesome-button";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const features = [
   {
@@ -97,20 +99,23 @@ function Home() {
             <div class="col col--4">
               {/* <h4 class="hero__title">{siteConfig.title}</h4> */}
               <div className={clsx('item shadow--tl', styles.indexDesc)}>   
-                <img className={styles.ezGitDocLogo} src="img/ezgitdoc-logo2.png" alt="EzGitDoc logo" height="140px"/>     
+                <img className={styles.ezGitDocLogo} src="img/ezgitdoc-logo.png" alt="EzGitDoc logo" height="140px"/>     
+                <br/>
                 <p>
-                  Open source, WYSIWYG tool designed to improve Git documentation experience extended with personal ideas. Design and edit prototype without need to edit code structure. EzGitDoc generates code for you.
-                </p>         
-                <div className={styles.buttons}>
-                  <Link
-                    className={clsx(
-                      'button button--info button--sm',
-                    styles.getStarted,
-                    )}
-                    to={useBaseUrl('docs/')}>
+                  Open source, WYSIWYG tool extended with personal ideas to improve Git documentation experience. Design and edit md file prototype without need to manipulate code structure. EzGitDoc generates code for you :)
+                </p>
+                <Link
+                  to={useBaseUrl('docs/')}
+                  className={styles.getStartedBtn}>
+                  <AwesomeButton
+                    ripple={false}
+                    size="medium"
+                    cssModule={AwesomeButtonStyles}
+                    type="primary"
+                  >
                     Get Started
-                  </Link>
-                </div>
+                  </AwesomeButton>
+                </Link>
               </div>
             </div>
           </div>

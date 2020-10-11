@@ -17,6 +17,7 @@
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.11",
     "react": "^16.8.4",
+    "react-awesome-button": "^6.5.1",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.8.4"
   },
