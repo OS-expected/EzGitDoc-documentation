@@ -19,7 +19,7 @@ module.exports = {
     },
     sidebarCollapsible: false,
     navbar: {
-      title: 'EzGitDoc',
+      title: 'Home',
       logo: {
         alt: 'Site Logo',
         src: 'img/logo.svg',
@@ -30,7 +30,7 @@ module.exports = {
         {
           label: 'Docs',
           position: 'left',
-          to: 'docs/'
+          to: 'ezgitdoc-about/'
         },
         {
           label: 'Projects',
@@ -38,9 +38,14 @@ module.exports = {
           href: 'https://github.com/trolit/EzGitDoc/projects'
         },
         {
-          label: 'Development',
+          label: 'DEV',
           position: 'left',
           href: 'https://github.com/trolit/EzGitDoc/projects'
+        },
+        {
+          label: 'Changelog',
+          position: 'left',
+          to: 'changelog'
         },
         {
           position: 'right',
