@@ -5,11 +5,14 @@
  * and scoped locally.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #5417B0;
 }
 
 @media screen and (max-width: 966px) {
@@ -34,4 +37,22 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.indexDesc {
+  text-align: justify;
+  font-size: 80%;
+  padding: 2rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: #391282;
+}
+
+.sliderBar {
+  padding: 0;
+}
+
+.ezGitDocLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
