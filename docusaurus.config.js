@@ -52,7 +52,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `EzGitDoc documentation built with <a target="_blank" rel="noopener noreferrer" href="https://v2.docusaurus.io/">Docusaurus2</a>`,
+      copyright: `Documentation proudly built with <a target="_blank" rel="noopener noreferrer" href="https://v2.docusaurus.io/">Docusaurus2</a>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),

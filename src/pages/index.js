@@ -13,58 +13,90 @@ import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Less writing more clicking',
+    imageUrl: 'img/index/features/less-writing.svg',
+    credits: 'https://freeicons.io/graphic-design-flat-icon-set/design-color-mouse-icon-15190',
+    iconAuthor: 'Raj Dev',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Don't spend extra time on extending element manually or finding bug why something is not
+        working as expected. Let EzGitDoc handle code generation :)
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Easy to understand & use',
+    imageUrl: 'img/index/features/easy-to-use.svg',
+    credits: 'https://freeicons.io/regular-life-icons/puzzle-icon-17876',
+    iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Tool has minimalistic UI which is easy to learn. Design prototype at EzGitDoc and then see
+        how result looks on any page that stores repositories.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Well documented',
+    imageUrl: 'img/index/features/well-documented.svg',
+    credits: 'https://freeicons.io/regular-life-icons/book-bookmark-icon-17768',
+    iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        EzGitDoc has extensive documentation about changes, explanations and examples. If you 
+        won't find what you need, feel free to contact or leave issue <a href="https://github.com/trolit/EzGitDoc/issues" target="_blank">here</a>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Customizable',
+    imageUrl: 'img/index/features/customizable.svg',
+    credits: 'https://freeicons.io/regular-life-icons/cogs-icon-17791',
+    iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Personalize tool with settings you might find comfortable to use like automated modals
+        autohiding notification, no space between elements etc.
+      </>
+    ),
+  },
+  {
+    title: 'Validated',
+    imageUrl: 'img/index/features/validated.svg',
+    credits: 'https://freeicons.io/regular-life-icons/shield-ok-icon-17883',
+    iconAuthor: 'Anu Rocks',
+    description: (
+      <>
+        If one of the fields won't be filled in as expected, you will receive easy notification
+        on what needs to be fixed in order to render element.
+      </>
+    ),
+  },
+  {
+    title: 'Fast',
+    imageUrl: 'img/index/features/fast.svg',
+    credits: 'https://freeicons.io/regular-life-icons/clock-icon-17785',
+    iconAuthor: 'Anu Rocks',
+    description: (
+      <>
+        Design repository document with EzGitDoc tool a lot faster than writing from scratch or modifying old template.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, credits, iconAuthor}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+            <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
+      <a href={credits} style={{fontSize:'10px'}} target="_blank">Icon made by {iconAuthor} from www.freeicons.io </a>
       <h3>{title}</h3>
-      <p>{description}</p>
+      <p className={styles.featureDescStyle}>{description}</p>
     </div>
   );
 }

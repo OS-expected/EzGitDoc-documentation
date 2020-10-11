@@ -37,16 +37,24 @@
 .featureImage {
   height: 200px;
   width: 200px;
+  position: relative;
 }
 
 .indexDesc {
-  text-align: justify;
+  text-align: center;
   font-size: 80%;
   padding: 2rem;
+  border-radius: 2rem;
   font-family: 'Sen', sans-serif;
   background-color: #6231bd;
   line-break: normal;
   height: 100%;
+}
+
+.featureDescStyle {
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+  font-size: 85%;
 }
 
 .sliderBar {
