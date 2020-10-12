@@ -17,48 +17,31 @@ Here you will find some examples on how each element is being displayed on EzGit
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e1.png')} alt="Example 01"/>
-    </p>
-  </blockquote>
+
+    ```javascript
+      var parts = document.getElementsByClassName('myPart');
+      var firstPart = parts.item(0);
+      var firstPartTagName = firstPart.tagName;
+    ```
+    
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e2.png')} alt="Example 02"/>
-    </p>
-  </blockquote>
+
+  ```js
+    // note that highlighting themes can differ
+    var parts = document.getElementsByClassName('myPart');
+    var firstPart = parts.item(0);
+    var firstPartTagName = firstPart.tagName;
+  ```
+    
   </TabItem>
 </Tabs>
 
 ## 2. Header
-
-<Tabs
-  defaultValue="EzGitDoc"
-  values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
-  ]}>
-  <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e3.png')} alt="Example 01"/>
-    </p>
-  </blockquote>
-  </TabItem>
-  <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e4.png')} alt="Example 02" height="120px"/>
-    </p>
-  </blockquote>
-  </TabItem>
-</Tabs>
 
 :::note
 
@@ -66,127 +49,169 @@ Here you will find some examples on how each element is being displayed on EzGit
 EzGitDoc is using &lt;h&gt; tags to create headers. It's also possible to use hashtag markdown. HTML tags are 'slightly better' due to the fact that they can be used inside other HTML tags like paragraphs while hashtags not.
 </p>
 
-<img src={useBaseUrl('img/examples/e5.png')} alt="Example 05" height="150px"/>
+<img src={useBaseUrl('img/examples/e5.png')} alt="Example 05"/>
 
 :::
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+
+```html
+<h2>Hey there 2</h2>
+
+<h3>Hey there 3</h3>
+
+<h4>Hey there 4</h4>
+```
+
+  </TabItem>
+  <TabItem value="Result">
+
+  <code>
+    <h2>Hey there 2</h2>
+    <h3>Hey there 3</h3>
+    <h4>Hey there 4</h4>
+  </code>
+    
+  </TabItem>
+</Tabs>
 
 ## 3. Image
 
+:::note
+If you didn't prepare images yet, leave word blank in URL field and EzGitDoc will use placeholder images which can be overwritten when needed.
+:::
+
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e6.png')} alt="Example 06" height="200px"/>
-    </p>
-  </blockquote>
+
+```html
+<p align="left"><img src="https://cdn.pixabay.com/photo/2018/03/11/08/47/dog-3216207_1280.png" alt="Image 1" width="150"/></p>
+
+<p align="center"><img src="https://cdn.pixabay.com/photo/2018/03/11/08/47/dog-3216207_1280.png" alt="Image 2" width="150"/></p>
+
+<p align="right"><img src="https://cdn.pixabay.com/photo/2018/03/11/08/47/dog-3216207_1280.png" alt="Image 3" width="150"/></p>
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e7.png')} alt="Example 07" height="200px"/>
-    </p>
-  </blockquote>
+
+  <code>
+    <p align="left"><img src="https://cdn.pixabay.com/photo/2018/03/11/08/47/dog-3216207_1280.png" alt="Image 1" width="150"/></p>
+    <p align="center"><img src="https://cdn.pixabay.com/photo/2018/03/11/08/47/dog-3216207_1280.png" alt="Image 2" width="150"/></p>
+    <p align="right"><img src="https://cdn.pixabay.com/photo/2018/03/11/08/47/dog-3216207_1280.png" alt="Image 3" width="150"/></p>
+  </code>
+    
   </TabItem>
 </Tabs>
 
-Source: <a href="https://cdn.pixabay.com/photo/2017/08/21/22/21/camel-2667153_1280.jpg">Pixabay</a>
-
-:::note
-If you didn't prepare images yet, use blank function and EzGitDoc will use placeholder images which can be overwritten when needed.
-:::
+Example image from: <a href="https://pixabay.com/pl/vectors/pies-komiczny-portret-zwierz%C4%85t-3216207/" target="_blank">pixabay.com</a>
 
 ## 4. Link
 
+:::note
+If you want to align single link(center/right), wrap it inside paragraph and use align attribute.
+:::
+
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e8.png')} alt="Example 08"/>
-    </p>
-  </blockquote>
+
+```html
+<a href="https://trolit.github.io/EzGitDoc">Link to EzGitDoc</a>
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e9.png')} alt="Example 09" height="45px"/>
-    </p>
-  </blockquote>
+
+  <code>
+    <a href="https://trolit.github.io/EzGitDoc">Link to EzGitDoc</a>  
+  </code>
+    
   </TabItem>
 </Tabs>
-
-:::note
-If you want that single link to be aligned, wrap it inside paragraph and use align attribute.
-:::
 
 ## 5. List
 
 ### 5.1. Iconic
 
+:::note
+By adding extra linebreak before description, you can put it's text below title. 
+:::
+
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'},
-    {label: 'Alt', value: 'Alt'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_0.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```html
+:smiley: <strong>Note 1</strong>: Blabla 1<br/><br/>
+:smiley: <strong>Note 2</strong>: Blabla 2<br/><br/>
+:smiley: <strong>Note 3</strong>: Blabla 3<br/><br/>
+:smiley: <strong>Note 4</strong>: Blabla 4<br/><br/>
+:smiley: <strong>Note 5</strong>: Blabla 5
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_1.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
-  </TabItem>
-  <TabItem value="Alt">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_6.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+  <code>
+    😃 <strong>Note 1</strong>: Blabla 1<br/><br/>
+    😃 <strong>Note 2</strong>: Blabla 2<br/><br/>
+    😃 <strong>Note 3</strong>: Blabla 3<br/><br/>
+    😃 <strong>Note 4</strong>: Blabla 4<br/><br/>
+    😃 <strong>Note 5</strong>: Blabla 5
+  </code>
+    
   </TabItem>
 </Tabs>
-
-:::note
-By adding extra linebreak, you can put description of each advantage below title and get output like shown in the 'Alt' tab. 
-:::
 
 ### 5.2. Normal
 
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_2.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```md
+- List item 1
+- List item 2
+- List item 3
+- List item 4
+- List item 5
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_3.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+  <ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+    <li>List item 4</li>
+    <li>List item 5</li>
+  </ul>
+
   </TabItem>
 </Tabs>
 
@@ -194,22 +219,30 @@ By adding extra linebreak, you can put description of each advantage below title
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_4.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```html
+- <a href="https://#to_do:add_href">Link 1</a>
+- <a href="https://#to_do:add_href">Link 2</a>
+- <a href="https://#to_do:add_href">Link 3</a>
+- <a href="https://#to_do:add_href">Link 4</a>
+- <a href="https://#to_do:add_href">Link 5</a>
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e10_5.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+  <ul>
+    <li><a href="https://#to_do:add_href">Link 1</a></li>
+    <li><a href="https://#to_do:add_href">Link 2</a></li>
+    <li><a href="https://#to_do:add_href">Link 3</a></li>
+    <li><a href="https://#to_do:add_href">Link 4</a></li>
+    <li><a href="https://#to_do:add_href">Link 5</a></li>
+  </ul>
+
   </TabItem>
 </Tabs>
 
@@ -221,22 +254,26 @@ By adding extra linebreak, you can put description of each advantage below title
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e11_0.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```md
+| Name | Age | Country |
+| :---: | :---: | :---: |
+| Adam | 23 | Poland |
+| Adrian | 23 | Poland |
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e11_1.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+| Name | Age | Country |
+| :---: | :---: | :---: |
+| Adam | 23 | Poland |
+| Adrian | 23 | Poland |
+
   </TabItem>
 </Tabs>
 
@@ -245,125 +282,190 @@ By adding extra linebreak, you can put description of each advantage below title
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e11_2.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```html
+| | |
+| :---: | :---: |
+| <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> | <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> |
+| <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> | <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> |
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e11_3.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+| | |
+| :---: | :---: |
+| <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> | <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> |
+| <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> | <img src="https://place-hold.it/150x100" alt="#toadd" width="150" height="100"/> |
+
   </TabItem>
 </Tabs>
 
 ### 6.3 Kbd / Linked Kbd
 
+:::note
+
+Use kbd table to display images and when someone click's them they will appear in fullscreen. Linked kbd can be useful if you want to redirect user to repository or different page. 
+
+:::
+
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e11_4.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```html
+<p align="center">
+<kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+<kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+<br/> 
+<kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+<kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+</p>
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e11_5.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+  <p align="center">
+  Result may differ on different sites<br/><br/>
+  <kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+  <kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+  <br/> 
+  <kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+  <kbd><img src="https://place-hold.it/150x130" alt="alt text" width="150" height="130"/></kbd> 
+  </p>
+
   </TabItem>
 </Tabs>
 
-##### Kbd single element
+#### Difference between kbd and linked kbd
+
+##### kbd single element
 
 ```html
 <kbd><img src="https://place-hold.it/100x100" alt="alt text" width="100" height="100"/></kbd> 
 ```
 
-##### Linked Kbd single element
+##### linked kbd single element
 
 ```html
 <a href="https://addurl/"><kbd><img src="https://place-hold.it/100x100" alt="alt text" width="100" height="100"/></kbd></a> 
 ```
 
-<p align="justify">
-Use kbd table to display images and when someone click's them they will appear in fullscreen. Linked kbd can be useful if you want to redirect user to repository or different page. 
-</p>
-
 ## 7. Text
+
+:::note
+
+In the text element you can use HTML tags to extend it like anchor(a), header(h), emphasis(em) etc.
+
+:::
 
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e16.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```html
+<p>Here it comes! Lorem ipsum!</p>
+
+<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do
+lor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exc
+epteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit a
+nim id est laborum.</p>
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e16_1.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+<p>Here it comes! Lorem ipsum!</p>
+
+<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do
+lor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exc
+epteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit a
+nim id est laborum.</p>
+
   </TabItem>
 </Tabs>
-
-:::note
-In the text element you can use HTML tags to extend it like anchor(a), header(h), emphasis(em).
-:::
 
 ## 8. Badge
 
+:::note
+
+<p align="justify">
+Labels are great to give short information. EzGitDoc allows to make static badges but you can make dynamic ones by yourself or use predefined. Visit <a href="https://shields.io/">Shields.io</a> to learn more.
+</p>
+
+:::
+
+:::note
+
+<p align="justify">
+To give between badges some space you can use for e.g. HTML character code<code>&amp;nbsp;</code>(result shown in fixed preview tab) or linebreaks(br).
+</p>
+
+:::
+
 <Tabs
   defaultValue="EzGitDoc"
   values={[
-    {label: 'Preview', value: 'EzGitDoc'},
-    {label: 'Result', value: 'Result'},
-    {label: 'Alt', value: 'Alt'}
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'},
+    {label: 'Fixed Preview', value: 'Fixed'},
   ]}>
   <TabItem value="EzGitDoc">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e17_0.png')} alt="Example 10.0"/>
-    </p>
-  </blockquote>
+
+```html
+<img src="https://img.shields.io/badge/Badge-N1-red?color=9B2BE2" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N2-red?color=2B95E2&style=plastic" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N3-red?color=2BE29B&style=flat-square" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N4-red?color=A7E22B&style=for-the-badge" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N5-red?color=E2A32B&style=social" alt="to do: add alt text"/>
+```
+
   </TabItem>
   <TabItem value="Result">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e17_1.png')} alt="Example 09"/>
-    </p>
-  </blockquote>
+
+<img src="https://img.shields.io/badge/Badge-N1-red?color=9B2BE2" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N2-red?color=2B95E2&style=plastic" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N3-red?color=2BE29B&style=flat-square" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N4-red?color=A7E22B&style=for-the-badge" alt="to do: add alt text"/>
+
+<img src="https://img.shields.io/badge/Badge-N5-red?color=E2A32B&style=social" alt="to do: add alt text"/>
+
   </TabItem>
-  <TabItem value="Alt">
-  <blockquote>
-    <p>
-        <img src={useBaseUrl('img/examples/e17_2.png')} alt="Example 09" height="30px"/>
-    </p>
-  </blockquote>
+  <TabItem value="Fixed">
+
+<img src="https://img.shields.io/badge/Badge-N1-red?color=9B2BE2" alt="to do: add alt text"/> &nbsp;
+
+<img src="https://img.shields.io/badge/Badge-N2-red?color=2B95E2&style=plastic" alt="to do: add alt text"/> &nbsp;
+
+<img src="https://img.shields.io/badge/Badge-N3-red?color=2BE29B&style=flat-square" alt="to do: add alt text"/> &nbsp;
+
+<img src="https://img.shields.io/badge/Badge-N4-red?color=A7E22B&style=for-the-badge" alt="to do: add alt text"/> &nbsp;
+
+<img src="https://img.shields.io/badge/Badge-N5-red?color=E2A32B&style=social" alt="to do: add alt text"/>
+
   </TabItem>
 </Tabs>
-
-<p align="justify">
-Labels are great to give short information. EzGitDoc allows to make static badges but you can make dynamic ones by yourself or use predefined. Visit <a href="https://shields.io/">Shields.io</a> to learn more. If you want labels to stay in one line like in Alt tab demonstration, simply leave just one whitespace between them. 
-</p>
