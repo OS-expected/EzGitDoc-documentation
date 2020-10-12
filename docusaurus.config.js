@@ -2,7 +2,7 @@ module.exports = {
   title: 'EzGitDoc',
   tagline: 'documentation',
   url: 'https://trolit.github.io',
-  baseUrl: '/',
+  baseUrl: '/EzGitDoc-documentation/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
   organizationName: 'trolit', // Usually your GitHub org/user name.
