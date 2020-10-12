@@ -2,7 +2,7 @@ module.exports = {
   title: 'EzGitDoc',
   tagline: 'documentation',
   url: 'https://trolit.github.io',
-  baseUrl: '/EzGitDoc-documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
   organizationName: 'trolit', // Usually your GitHub org/user name.
@@ -40,7 +40,7 @@ module.exports = {
         {
           label: 'DEV',
           position: 'left',
-          href: 'https://github.com/trolit/EzGitDoc/projects'
+          to: 'start'
         },
         {
           label: 'Changelog',
