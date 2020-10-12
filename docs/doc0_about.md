@@ -11,10 +11,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 <p align="justify">
-EzGitDoc allows to generate <code>*.md</code> file structure within projected template at <a href="https://trolit.github.io/EzGitDoc/"><em>https://trolit.github.io/EzGitDoc/</em></a>. You don't need to install anything as the project is setup and ready to use on github-pages. Every element's data can be modified after rendering it on page except image/kbd/linked kbd table(still with those table types you can quickly change images resolutions). Make prototype of your document, fill in data whenever you want, get ouput and polish it to your needs. Reduce to 0 the risk of elements not being rendered as expected with EzGitDoc :)
+EzGitDoc allows to generate <code>*.md</code> file structure within projected prototype at <a href="https://trolit.github.io/EzGitDoc/"><em>https://trolit.github.io/EzGitDoc/</em></a>. You don't need to install anything as the project is setup and ready to use on github-pages. Every element's data can be modified after rendering it on page except <em>image/kbd/linked kbd table</em>(still with those table types you can quickly change images resolutions). Make prototype of your document, fill in data whenever you want, get output and polish it to your needs. Don't waste time on creating elements from scratch, finding bug or modifying old scheme from different repository. Try EzGitDoc and create documentation you will like :)
 </p>
 
-### Used in EzGitDoc 
+### EzGitDoc 
 
 - <a href="https://github.com/SortableJS/Sortable" target="_blank">SortableJS</a>
 - <a href="https://fontawesome.com/" target="_blank">Font Awesome icons set</a>
@@ -27,6 +27,13 @@ EzGitDoc allows to generate <code>*.md</code> file structure within projected te
 - <a href="https://github.com/malihu/malihu-custom-scrollbar-plugin" target="_blank">Custom scrollbar plugin</a>
 - <a href="https://bootsnipp.com/snippets/Q0dAX" target="_blank">Modified sidebar snippet</a>
 - <a href="https://github.com/itsjavi/bootstrap-colorpicker" target="_blank">Bootstrap colorpicker</a>
+
+### Documentation 
+
+- <a href="https://v2.docusaurus.io/" target="_blank">Docusaurus2</a>
+- <a href="https://github.com/rcaferati/react-awesome-slider" target="_blank">React Awesome Slider</a>
+- <a href="https://github.com/rcaferati/react-awesome-button" target="_blank">React Awesome Button</a>
+- <a href="https://freeicons.io/" target="_blank">SVG icons from Freeicons</a>
 
 ### License
 

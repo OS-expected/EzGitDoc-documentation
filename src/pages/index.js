@@ -94,7 +94,7 @@ function Feature({imageUrl, title, description, credits, iconAuthor}) {
             <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <a href={credits} style={{fontSize:'10px'}} target="_blank">Icon made by {iconAuthor} from www.freeicons.io </a>
+      <a href={credits} style={{fontSize:'65%'}} target="_blank">Icon made by {iconAuthor} from www.freeicons.io </a>
       <h3>{title}</h3>
       <p className={styles.featureDescStyle}>{description}</p>
     </div>

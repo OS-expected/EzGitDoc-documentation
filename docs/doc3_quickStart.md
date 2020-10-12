@@ -1,95 +1,145 @@
 ---
 id: doc3
-title: Quick start
+title: Quickstart
 slug: /quick-start
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-### 1. UI
+## 1. UI
 
 <p align="center">
 <img src={useBaseUrl('img/quickStart/1.png')} alt="Quick start - 01"/>
 </p>
 
 <p align="justify">
-EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area that take the most space is a place where all rendered elements are stored during the process of making prototype.
+EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area that take the most space(white rectangle) also named <strong>working space</strong>, is a place where all rendered elements are stored during the process of making prototype.
 </p>
 
 :::note
-Clicking one of the elements from sidebar or using exact key combination trigger modal in which you will need to pass some information in order to create chosen element.
+Clicking one of the elements from sidebar or using exact key combination triggers modal in which you will need to pass some information in order to create chosen element.
 :::
 
-### 2. Tools
+### 1.1. Sidebar
 
 <p align="center">
 <img src={useBaseUrl('img/quickStart/2.png')} alt="Quick start - 02"/>
 </p>
 
 <p align="justify">
-To reset prototype(clear all created elements) use red button placed below EzGitDoc logo in the sidebar section. This operation needs to be confirmed, so don't worry if you click it by mistake. 
-<br/><br/>
-In the bottom part of the sidebar there are 4 buttons(icons) that perform different operations. First one(eye icon) allows you to close sidebar to preview prototype without sidebar, double up/down arrow on click, slide to the top/bottom of the project. Last one(gear) opens modal with settings that can be adjusted.  
+Sidebar besides holding all references to elements that can be created within EzGitDoc has some useful tools that have been marked on the image above.
 </p>
 
-### 3. Settings
+#### [1] RESET
 
 <p align="justify">
-Personalize how EzGitDoc is working via settings panel.
+RESET button allows you to remove all created elements and clear working space. This operation cannot be undone and needs to be confirmed, so don't worry if you click it by mistake :) 
 </p>
 
-<p align="center">
-<img src={useBaseUrl('img/quickStart/3.png')} alt="Quick start - 03" height="400px"/>
-</p>
-
-### 4. Error Handling
+#### [2] DOCS
 
 <p align="justify">
-Before elements are created, required fields are validated. If given value is incompatible, empty or unexpected, notification will appear in the left top corner with details why element wasn't created. Element won't be created until errors are fixed. 
+Clicking on DOCS button results in opening new tab in browser with EzGitDoc documentation.
+</p>
+
+#### [3] FULL PAGE PREVIEW
+
+<p align="justify">
+Click on EYE icon to get full working space preview and hide sidebar.
+</p>
+
+#### [4] SCROLL TO THE TOP
+
+<p align="justify">
+If you click on DOUBLE UP ARROW icon, you will be moved to the top line of working space.
+</p>
+
+#### [5] SCROLL TO THE BOTTOM
+
+<p align="justify">
+If you click on DOUBLE DOWN ARROW icon, you will be moved to the bottom line of working space.
+</p>
+
+#### [6] REFERENCES
+
+<p align="justify">
+Tool added in EzGitDoc <a href="http://localhost:3000/EzGitDoc-documentation/changelog#v174-10102020" target="_blank">update 1.7.4</a> renders in modal references(anchors) to all elements created in EzGitDoc. It was made with purpose for biggers projects to quickly travel/move between elements. Clicked target is also highlighted for readability. 
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/4.png')} alt="Quick start - 04"/>
+<img src={useBaseUrl('img/quickStart/3.png')} alt="Quick start - 02"/>
 </p>
 
-### 5. Updating content
+#### [7] SETTINGS
+
+<p align="justify">
+Click on GEAR icon to open modal with all EzGitDoc settings that can be personalized.
+</p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/5.png')} alt="Quick start - 05"/>
+<img src={useBaseUrl('img/quickStart/4.png')} alt="Quick start - 02"/>
+</p>
+
+### 1.2. Create
+
+<p align="justify">
+Process of creating element in EzGitDoc is simple. When certain element is activated from sidebar or triggered by shortkey combination you will see window(modal) on the right side with available options. Amount of data needed to fill in depends on element's type. Screen below shows window for creating image element.
+</p>
+
+<p align="center">
+<img src={useBaseUrl('img/quickStart/5.png')} alt="Quick start - 02"/>
+</p>
+
+### 1.3. Update
+
+<p align="justify">
+To update element, click on the button placed next to the element on it's left side (marked on the image below).
+</p>
+
+<p align="center">
+<img src={useBaseUrl('img/quickStart/6.png')} alt="Quick start - 02"/>
 </p>
 
 <p align="justify">
-If you want to update created element, for e.g. fill in data, you can do this by clicking left button(with test-tube icon), placed next to the element you wish to update. After that, modal will appear where you will be able to make allowed changes.
+Update window layout depends on element that is updated and implementend options. Almost every EzGitDoc element's content can be updated(besides few exceptions). For table element of type <strong>image / kbd / linked kbd</strong> you can only change all images resolutions at once. Below is shown update window for table of type text. 
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/6.png')} alt="Quick start - 06"/>
+<img src={useBaseUrl('img/quickStart/7.png')} alt="Quick start - 02"/>
 </p>
 
 :::note
-If you plan on making more than one change it's worth to use update button frequently because if you click outside of the modal it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from it's last saved state. 
+If you plan on making more than one change it's worth to use update button frequently because if you click outside of the modal(update window) it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from it's last saved state. 
 :::
 
-### 6. Swapping & removing elements
+### 1.4. Errors
 
 <p align="justify">
-If you want to swap elements positions, you can do this by clicking with mouse button on the element you wish to move and drag until reaching desired position.
+Before elements are created, required fields are validated. If given value is incompatible, empty or unexpected, notification will appear in the left top corner with details why element wasn't created. Element won't be created until errors are fixed. Example:
 </p>
 
 <p align="center">
-<img src="https://trolit.github.io/EzGitDoc/images/quick_start_7.gif" alt="Quick start 6(Swapping Elements) gif"/>
+<img src={useBaseUrl('img/quickStart/8.png')} alt="Quick start - 04"/>
 </p>
 
-:::note
-To remove certain element, use red button(with white cross icon) that is placed on the right side.
-:::
+## 2. Working space
 
-### 7. Getting output
+### 2.1. Swapping elements
+
+<p align="justify">
+If you want to swap elements positions, you can do this by clicking with mouse button on the element you wish to move and drag until reaching desired position. In the future updates EzGitDoc will be extended with smart swapping tool.
+</p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/7.png')} alt="Quick start - 07"/>
+<img src={useBaseUrl('img/quickStart/9.gif')} alt="Quick start - 04"/>
+</p>
+
+### 2.2. Getting output
+
+<p align="center">
+<img src={useBaseUrl('img/quickStart/10.png')} alt="Quick start - 07"/>
 </p>
 
 <p align="justify">
-In order to be able to generate output for *.md file, you need to have at least one element created. If you do, you will notice button in the right top corner of the page called <code>Generate</code>. It will generate scheme output on click, showing results in modal like in the example above.
+In order to be able to generate output for *.md file, you need to have at least one element created. If you do, you will notice button in the right top corner of the page called <code>GENERATE CODE</code>. It will generate scheme output on click, showing results in modal like in the example above. You can copy output instantly into clipboard or save it for later.
 </p>
