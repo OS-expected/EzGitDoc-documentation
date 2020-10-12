@@ -19,7 +19,7 @@ Quickbuilder is small, handy tool that comes with EzGitDoc. It allows to create 
 ### Presentation
 
 <p align="center">
-<img src={useBaseUrl('img/quickBuilder/2.png')} alt="Quickbuilder - 02" width="550px"/>
+<img src={useBaseUrl('img/quickBuilder/2.png')} alt="Quickbuilder - 02"/>
 </p>
 
 ### Usage 

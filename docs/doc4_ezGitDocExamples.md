@@ -49,7 +49,7 @@ Here you will find some examples on how each element is being displayed on EzGit
 EzGitDoc is using &lt;h&gt; tags to create headers. It's also possible to use hashtag markdown. HTML tags are 'slightly better' due to the fact that they can be used inside other HTML tags like paragraphs while hashtags not.
 </p>
 
-<img src={useBaseUrl('img/examples/e5.png')} alt="Example 05"/>
+<img src={useBaseUrl('img/examples/note1.png')} alt="Example 05"/>
 
 :::
 

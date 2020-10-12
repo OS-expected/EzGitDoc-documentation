@@ -1,7 +1,7 @@
 ---
 id: doc0
 title: About
-slug: /ezgitdoc-about
+slug: /about
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

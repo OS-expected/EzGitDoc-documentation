@@ -30,7 +30,7 @@ module.exports = {
         {
           label: 'Docs',
           position: 'left',
-          to: 'ezgitdoc-about/'
+          to: 'about'
         },
         {
           label: 'Projects',

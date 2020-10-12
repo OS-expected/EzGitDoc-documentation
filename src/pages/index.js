@@ -137,7 +137,7 @@ function Home() {
                   Open source, WYSIWYG tool extended with personal ideas to improve Git documentation experience. Design and edit md file prototype without need to manipulate code structure. EzGitDoc generates code for you :)
                 </p>
                 <Link
-                  to={useBaseUrl('ezgitdoc-about')}
+                  to={useBaseUrl('about')}
                   className={styles.getStartedBtn}>
                   <AwesomeButton
                     ripple={false}
