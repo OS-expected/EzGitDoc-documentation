@@ -469,3 +469,45 @@ To give between badges some space you can use for e.g. HTML character code<code>
 
   </TabItem>
 </Tabs>
+
+## 9. Details
+
+:::note
+
+<p align="justify">
+<code>Details-summary</code> is handy element to make documentation more compact by hiding specific problems or explanations under title which then can be expanded by user to see details.
+</p>
+
+:::
+
+<Tabs
+  defaultValue="EzGitDoc"
+  values={[
+    {label: 'EzGitDoc', value: 'EzGitDoc'},
+    {label: 'Preview', value: 'Result'}
+  ]}>
+  <TabItem value="EzGitDoc">
+
+```html
+<details>
+<summary>This is my summary</summary>
+First thing:<br/>
+<a href="https://trolit.github.io/EzGitDoc">EzGitDoc</a><br/>
+Second thing:<br/>
+<a href="https://trolit.github.io/EzGitDoc-documentation/">Documentation</a>
+</details>
+```
+
+  </TabItem>
+  <TabItem value="Result">
+
+<details>
+<summary>This is my summary</summary>
+First thing:<br/>
+<a href="https://trolit.github.io/EzGitDoc">EzGitDoc</a><br/>
+Second thing:<br/>
+<a href="https://trolit.github.io/EzGitDoc-documentation/">Documentation</a>
+</details>
+
+  </TabItem>
+</Tabs>
