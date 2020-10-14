@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{56:function(o){o.exports=JSON.parse('{"allTagsPath":"/EzGitDoc-documentation/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/EzGitDoc-documentation/blog/tags/hola"}')}}]);
