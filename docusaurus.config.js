@@ -17,6 +17,11 @@ module.exports = {
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
     },
+    algolia: {
+      apiKey: 'd78e438eb777ec800b79afc95c62b7eb',
+      indexName: 'ezgitdoc',
+      debug: false
+    },
     sidebarCollapsible: false,
     navbar: {
       title: 'Home',
@@ -80,5 +85,13 @@ module.exports = {
         },
       },
     ],
+  ],
+  scripts: [
+    // Object format.
+    {
+      src:
+        'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js',
+      async: true,
+    },
   ],
 };
