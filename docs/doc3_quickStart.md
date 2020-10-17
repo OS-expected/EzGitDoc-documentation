@@ -13,14 +13,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 <p align="justify">
-EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area that take the most space(white rectangle) also named <strong>working space</strong>, is a place where all rendered elements are stored during the process of making prototype.
+EzGitDoc interface is split into two sections. Elements that can be created on the page are listed in the sidebar. Area that takes the most space(white rectangle) also named <strong>working space</strong>, is a place where all rendered elements are stored during the process of making prototype.
 </p>
 
 :::note
 Clicking one of the elements from sidebar or using exact key combination triggers modal in which you will need to pass some information in order to create chosen element.
 :::
 
-### 1.1. Sidebar
+### 1.1. Themes
+
+<p align="center">
+<img src={useBaseUrl('img/quickStart/1.1.png')} alt="Quick start - 011"/>
+</p>
+
+<p align="justify">
+Since version <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v175-16102020" target="_blank">1.7.5</a> release, you can personalize EzGitDoc look with some predefined themes including dark and light ones. To access theme picking modal, use droplet icon in the left top corner of the sidebar. Image above demonstrates light doc theme.
+</p>
+
+
+### 1.2. Sidebar
 
 <p align="center">
 <img src={useBaseUrl('img/quickStart/2.png')} alt="Quick start - 02"/>
@@ -63,7 +74,7 @@ If you click on DOUBLE DOWN ARROW icon, you will be moved to the bottom line of 
 #### [6] REFERENCES
 
 <p align="justify">
-Tool added in EzGitDoc <a href="http://localhost:3000/EzGitDoc-documentation/changelog#v174-10102020" target="_blank">update 1.7.4</a> renders in modal references(anchors) to all elements created in EzGitDoc. It was made with purpose for biggers projects to quickly travel/move between elements. Clicked target is also highlighted for readability. 
+Tool added in EzGitDoc <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v174-10102020" target="_blank">update 1.7.4</a> renders in modal references(anchors) to all elements created in EzGitDoc. It was made with purpose for biggers projects to quickly travel/move between elements. Clicked target is also highlighted for readability. 
 </p>
 
 <p align="center">
@@ -80,7 +91,7 @@ Click on GEAR icon to open modal with all EzGitDoc settings that can be personal
 <img src={useBaseUrl('img/quickStart/4.png')} alt="Quick start - 02"/>
 </p>
 
-### 1.2. Create
+### 1.3. Create
 
 <p align="justify">
 Process of creating element in EzGitDoc is simple. When certain element is activated from sidebar or triggered by shortkey combination you will see window(modal) on the right side with available options. Amount of data needed to fill in depends on element's type. Screen below shows window for creating image element.
@@ -90,7 +101,7 @@ Process of creating element in EzGitDoc is simple. When certain element is activ
 <img src={useBaseUrl('img/quickStart/5.png')} alt="Quick start - 02"/>
 </p>
 
-### 1.3. Update
+### 1.4. Update
 
 <p align="justify">
 To update element, click on the button placed next to the element on it's left side (marked on the image below).
@@ -112,7 +123,7 @@ Update window layout depends on element that is updated and implementend options
 If you plan on making more than one change it's worth to use update button frequently because if you click outside of the modal(update window) it disappears. Uncommited changes won't be saved and when you toggle update on the same element again, modal will be rerendered from it's last saved state. 
 :::
 
-### 1.4. Errors
+### 1.5. Errors
 
 <p align="justify">
 Before elements are created, required fields are validated. If given value is incompatible, empty or unexpected, notification will appear in the left top corner with details why element wasn't created. Element won't be created until errors are fixed. Example:

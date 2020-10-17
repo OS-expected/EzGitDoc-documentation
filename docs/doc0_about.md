@@ -27,6 +27,7 @@ EzGitDoc allows to generate <code>*.md</code> file structure within projected pr
 - <a href="https://github.com/malihu/malihu-custom-scrollbar-plugin" target="_blank">Custom scrollbar plugin</a>
 - <a href="https://bootsnipp.com/snippets/Q0dAX" target="_blank">Modified sidebar snippet</a>
 - <a href="https://github.com/itsjavi/bootstrap-colorpicker" target="_blank">Bootstrap colorpicker</a>
+- <a href="http://lesscss.org/" target="_blank">Less.js</a>
 
 ### Documentation 
 
@@ -34,7 +35,8 @@ EzGitDoc allows to generate <code>*.md</code> file structure within projected pr
 - <a href="https://github.com/rcaferati/react-awesome-slider" target="_blank">React Awesome Slider</a>
 - <a href="https://github.com/rcaferati/react-awesome-button" target="_blank">React Awesome Button</a>
 - <a href="https://freeicons.io/" target="_blank">SVG icons from Freeicons</a>
-
+- <a href="https://www.algolia.com/" target="_blank">Algolia</a> <a href="https://docsearch.algolia.com/" target="_blank">DocSearch</a> 
+- <a href="https://facebookincubator.github.io/infima/" target="_blank">Infima</a>
 ### License
 
 <small>

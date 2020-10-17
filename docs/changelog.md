@@ -37,6 +37,39 @@ export const Changed = ({children}) => ( <span style={{
     paddingRight: '5rem',
 }}>{'changes'}</span> );
 
+### v1.7.5 (16.10.2020)
+
+<Changed></Changed> 
+
+```
+- Changed "save to file" file extension from .txt to .md
+- Changed classes name which contained 'dark' to 'custom'
+- Removed body background definition from body style attribute
+- Changed footer badges
+- Removed unnecessary styles (badge sonar)
+- Moved element border styling to ezGitPart class
+- Modified highlighting system to restore previous color(rather than hard coded one)
+```
+
+<Added></Added> 
+
+```
+- Added LESS.js to the project
+- Implemented 4 new themes: Light Doc | Calm | Dark Doc | Raw Dark
+```
+
+<Fixed></Fixed>
+
+```
+- Fixed resetting image alignment after turning on/off "nonspaced elements" setting
+- Fixed iconic list code output
+- Fixed Alt + F key combination for badge element
+- Fixed removing last element from EzGitDoc with confirmation feature
+- Fixed logo-preloader-body with logo-body usage
+```
+
+<hr/>
+
 ### v1.7.4 (10.10.2020)
 
 <Changed></Changed> 
@@ -141,7 +174,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.7 (08.09.2020)
+### v1.7.0 (08.09.2020)
 
 <Changed></Changed> 
 
@@ -170,7 +203,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.6 (20.05.2020)
+### v1.6.0 (20.05.2020)
 
 <Changed></Changed> 
 
@@ -197,7 +230,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.5 (09.04.2020)
+### v1.5.0 (09.04.2020)
 
 <Changed></Changed> 
 
@@ -231,7 +264,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.4 (01.04.2020)
+### v1.4.0 (01.04.2020)
 
 <Changed></Changed> 
 
@@ -284,7 +317,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.3 (28.03.2020)
+### v1.3.0 (28.03.2020)
 
 <Changed></Changed>
 
@@ -325,7 +358,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.2 (24.03.2020)
+### v1.2.0 (24.03.2020)
 
 <Changed></Changed>
 
@@ -347,7 +380,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.1 (04.03.2020)
+### v1.1.0 (04.03.2020)
 
 <Changed></Changed>
 
@@ -364,7 +397,7 @@ export const Changed = ({children}) => ( <span style={{
 
 <hr/>
 
-### v1.0 (29.02.2020)
+### v1.0.0 (29.02.2020)
 
 <Added></Added>
 

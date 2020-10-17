@@ -31,8 +31,8 @@ const features = [
     iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Tool has minimalistic UI which is easy to learn. Design prototype at EzGitDoc and then see
-        how result looks on any page that stores repositories.
+        EzGitDoc has minimalistic UI which is easy to learn. Design prototype and then see
+        how result looks on any page that uses md files for documentation.
       </>
     ),
   },
@@ -44,7 +44,7 @@ const features = [
     description: (
       <>
         EzGitDoc has extensive documentation about changes, explanations and examples. If you 
-        won't find what you need, feel free to contact or leave issue <a href="https://github.com/trolit/EzGitDoc/issues" target="_blank">here</a>
+        need help, feel free to contact or leave issue <a href="https://github.com/trolit/EzGitDoc/issues" target="_blank">here</a>
       </>
     ),
   },
@@ -55,8 +55,8 @@ const features = [
     iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Personalize tool with settings you might find comfortable to use like automated modals
-        autohiding notification, no space between elements etc.
+        Personalize tool with settings you might find comfortable to use like automated modals,
+        notifications autohiding, space between elements etc.
       </>
     ),
   },
@@ -79,7 +79,8 @@ const features = [
     iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Design repository document with EzGitDoc tool a lot faster than writing from scratch or modifying old template.
+        Design interesting repository document with EzGitDoc tool a lot faster than writing from 
+        scratch or modifying old template.
       </>
     ),
   },
@@ -88,7 +89,7 @@ const features = [
 function Feature({imageUrl, title, description, credits, iconAuthor}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--4')}>
       {imgUrl && (
         <div className="text--center">
             <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -112,8 +113,8 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <div class="row">
-            <div class="col col--8 test">
+          <div className="row">
+            <div className="col col--8">
               <div className={clsx('item shadow--tl hero hero--dark', styles.sliderBar)}>&nbsp;</div>
               <AutoplaySlider
                 play={true}
@@ -128,7 +129,7 @@ function Home() {
                 <div data-src="img/index/ezgitdoc_slide5.png" />
               </AutoplaySlider>
             </div>
-            <div class="col col--4">
+            <div className="col col--4">
               {/* <h4 class="hero__title">{siteConfig.title}</h4> */}
               <div className={clsx('item shadow--tl', styles.indexDesc)}>   
                 <img className={styles.ezGitDocLogo} src="img/ezgitdoc-logo.png" alt="EzGitDoc logo" height="140px"/>     
