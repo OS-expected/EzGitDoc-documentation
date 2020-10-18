@@ -37,6 +37,15 @@ export const Changed = ({children}) => ( <span style={{
     paddingRight: '5rem',
 }}>{'changes'}</span> );
 
+### v1.7.5.1 (18.10.2020)
+
+<Fixed></Fixed>
+
+```
+- Released fix for case where element's background color wasn't 
+properly changed on theme change after using references system.
+```
+
 ### v1.7.5 (16.10.2020)
 
 <Changed></Changed> 
