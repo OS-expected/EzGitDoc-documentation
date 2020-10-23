@@ -31,7 +31,7 @@ const features = [
     iconAuthor: 'Anu Rocks',
     description: (
       <>
-        EzGitDoc has minimalistic UI which is easy to learn. Design prototype and then see
+        EzGitDoc has minimalistic UI which is easy to use. Design prototype and then see
         how result looks on any page that uses md files for documentation.
       </>
     ),
@@ -55,8 +55,8 @@ const features = [
     iconAuthor: 'Anu Rocks',
     description: (
       <>
-        Personalize tool with settings you might find comfortable to use like automated modals,
-        notifications autohiding, space between elements etc.
+        Personalize tool with settings you might find comfortable to use like automated modals, 
+        space between elements etc.
       </>
     ),
   },
@@ -68,7 +68,7 @@ const features = [
     description: (
       <>
         If one of the fields won't be filled in as expected, you will receive easy notification
-        on what needs to be fixed in order to render element.
+        on what needs to be fixed in order to create element.
       </>
     ),
   },
@@ -80,7 +80,7 @@ const features = [
     description: (
       <>
         Design interesting repository document with EzGitDoc tool a lot faster than writing from 
-        scratch or modifying old template.
+        scratch new code or modifying old template.
       </>
     ),
   },
@@ -115,7 +115,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col col--8">
-              <div className={clsx('item shadow--tl hero hero--dark', styles.sliderBar)}>&nbsp;</div>
+              <div className={clsx('item shadow--tl hero hero--dark', styles.sliderBar)}>&nbsp; <span className={clsx('iconify', styles.sliderIcon)} data-icon="emojione:red-circle" data-inline="false"></span> &nbsp; <span className={clsx('iconify', styles.sliderIcon)} data-icon="twemoji:yellow-circle" data-inline="false"></span> &nbsp; <span className={clsx('iconify', styles.sliderIcon)} data-icon="twemoji:green-circle" data-inline="false"></span></div>
               <AutoplaySlider
                 play={true}
                 cancelOnInteraction={false} // should stop playing on user interaction
@@ -135,7 +135,7 @@ function Home() {
                 <img className={styles.ezGitDocLogo} src="img/ezgitdoc-logo.png" alt="EzGitDoc logo" height="140px"/>     
                 <br/>
                 <p>
-                  Open source, WYSIWYG tool extended with personal ideas to improve Git documentation experience. Design and edit md file prototype without need to manipulate code structure. EzGitDoc generates code for you :)
+                  Unique, open source designer with personal ideas. Develop documentation for your repository with <strong>more clicking than writing</strong> approach. EzGitDoc generates code for you :)
                 </p>
                 <Link
                   to={useBaseUrl('about')}

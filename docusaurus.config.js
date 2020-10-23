@@ -62,7 +62,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Documentation proudly built with <a target="_blank" rel="noopener noreferrer" href="https://v2.docusaurus.io/">Docusaurus2</a>`,
+      copyright: `documentation proudly built with <a target="_blank" rel="noopener noreferrer" href="https://v2.docusaurus.io/">Docusaurus2</a> | search powered by <a target="_blank" href="https://www.algolia.com/ref/docsearch/?utm_source=docsearch&utm_medium=link&utm_term=footer&utm_campaign=">Algolia</a>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
@@ -91,6 +91,11 @@ module.exports = {
     {
       src:
         'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js',
+      async: true,
+    },
+    {
+      src:
+        'https://code.iconify.design/1/1.0.7/iconify.min.js',
       async: true,
     }
   ],
