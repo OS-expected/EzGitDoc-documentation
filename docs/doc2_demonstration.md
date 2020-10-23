@@ -7,7 +7,7 @@ slug: /demonstration
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <p align="justify">
-With EzGitDoc it's really simple and quick to create document for repository. Below you will find single example on how that process can look like. Used elements: image, badge(<a href="https://shields.io/">Shields.io</a>), text, list, code, table with images. For demonstration purposes prototype was restricted to 6 elements. You can create as many elements as you want.
+With EzGitDoc designer, it's really simple and quick to create interesting document for repository. Below you will find single example on how that process can look like. Used elements in that particular example: image, badge(<a href="https://shields.io/">Shields.io</a>), text, list, code, table with images. For demonstration purposes, prototype was restricted to 6 elements. You can create as many elements as you want.
 </p>
 
 ### 1. Design prototype
@@ -16,7 +16,7 @@ With EzGitDoc it's really simple and quick to create document for repository. Be
 <img src={useBaseUrl('img/demonstration/d01.png')} alt="EzGitDoc Demonstration - 1"/>
 </p>
 
-### 2. Get code
+### 2. Generate code
 
 ````git
 <p align="center"><img src="https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_1280.jpg" alt="banner image" width="200"/></p>

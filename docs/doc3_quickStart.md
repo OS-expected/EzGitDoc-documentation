@@ -6,10 +6,12 @@ slug: /quick-start
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+export const imageSize = 280;
+
 ## 1. UI
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/1.png')} alt="Quick start - 01"/>
+<img src={useBaseUrl('img/quickStart/1.png')} alt="Quick start - 01" height={imageSize}/>
 </p>
 
 <p align="justify">
@@ -23,22 +25,22 @@ Clicking one of the elements from sidebar or using exact key combination trigger
 ### 1.1. Themes
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/1.1.png')} alt="Quick start - 011"/>
+<img src={useBaseUrl('img/quickStart/1.1.png')} alt="Quick start - 1.1" height={imageSize}/>
 </p>
 
 <p align="justify">
-Since version <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v175-16102020" target="_blank">1.7.5</a> release, you can personalize EzGitDoc look with some predefined themes including dark and light ones. To access theme picking modal, use droplet icon in the left top corner of the sidebar. Image above demonstrates light doc theme.
+Since version <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v175-16102020" target="_blank">1.7.5</a> release, you can personalize EzGitDoc look with some predefined themes including dark and light ones. To access theme picking modal, use droplet icon positioned in the left top corner of the sidebar. Image above demonstrates light doc theme. You can also create your own theme that will fullfil your expectations. 
 </p>
 
 
 ### 1.2. Sidebar
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/2.png')} alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/2.png')} alt="Quick start - 2" height={imageSize}/>
 </p>
 
 <p align="justify">
-Sidebar besides holding all references to elements that can be created within EzGitDoc has some useful tools that have been marked on the image above.
+Sidebar besides holding all references to elements that can be created within EzGitDoc, has some useful tools that have been marked on the image above and explained below.
 </p>
 
 #### [1] RESET
@@ -74,11 +76,19 @@ If you click on DOUBLE DOWN ARROW icon, you will be moved to the bottom line of 
 #### [6] REFERENCES
 
 <p align="justify">
-Tool added in EzGitDoc <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v174-10102020" target="_blank">update 1.7.4</a> renders in modal references(anchors) to all elements created in EzGitDoc. It was made with purpose for biggers projects to quickly travel/move between elements. Clicked target is also highlighted for readability. 
+Tool added in EzGitDoc <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v174-10102020" target="_blank">update 1.7.4</a> renders in modal references(anchors) to all elements created in EzGitDoc designer. It was made with purpose for biggers projects to quickly travel/move between elements. Clicked target is also highlighted for readability. 
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/3.png')} alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/3.png')} alt="Quick start - 3" height={imageSize}/>
+</p>
+
+<p align="justify">
+From version <a href="https://trolit.github.io/EzGitDoc-documentation/changelog#v176-23102020" target="_blank">1.7.6</a>, references tool got extended with function that allows to change chosen element's position using pushpin placed next to that element. Mentioned way of placing elements can be used for e.g. as an alternative to drag and drop for bigger projects.
+</p>
+
+<p align="center">
+<img src={useBaseUrl('img/quickStart/3.1.png')} alt="Quick start - 3.1" height={imageSize}/>
 </p>
 
 #### [7] SETTINGS
@@ -88,7 +98,7 @@ Click on GEAR icon to open modal with all EzGitDoc settings that can be personal
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/4.png')} alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/4.png')} alt="Quick start - 4" height={imageSize}/>
 </p>
 
 ### 1.3. Create
@@ -98,7 +108,7 @@ Process of creating element in EzGitDoc is simple. When certain element is activ
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/5.png')} alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/5.png')} alt="Quick start - 5" height={imageSize}/>
 </p>
 
 ### 1.4. Update
@@ -108,7 +118,7 @@ To update element, click on the button placed next to the element on it's left s
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/6.png')} alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/6.png')} alt="Quick start - 6" height={imageSize}/>
 </p>
 
 <p align="justify">
@@ -116,7 +126,7 @@ Update window layout depends on element that is updated and implementend options
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/7.png')} alt="Quick start - 02"/>
+<img src={useBaseUrl('img/quickStart/7.png')} alt="Quick start - 7" height={imageSize}/>
 </p>
 
 :::note
@@ -130,7 +140,7 @@ Before elements are created, required fields are validated. If given value is in
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/8.png')} alt="Quick start - 04"/>
+<img src={useBaseUrl('img/quickStart/8.png')} alt="Quick start - 8" height={imageSize}/>
 </p>
 
 ## 2. Working space
@@ -138,17 +148,25 @@ Before elements are created, required fields are validated. If given value is in
 ### 2.1. Swapping elements
 
 <p align="justify">
-If you want to swap elements positions, you can do this by clicking with mouse button on the element you wish to move and drag until reaching desired position. In the future updates EzGitDoc will be extended with smart swapping tool.
+If you want to swap elements positions, you can do this in two ways. First one relies on clicking with mouse button on the element you wish to move and dragging it until reaching desired position.
 </p>
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/9.gif')} alt="Quick start - 04"/>
+<img src={useBaseUrl('img/quickStart/9.gif')} alt="Quick start - 9"/>
+</p>
+
+<p align="justify">
+Second available option to perform is by using references section. Near each element there is pushpin icon. Click it, pass element's new position and confirm action. That way is more convenient for medium to big projects.
+</p>
+
+<p align="center">
+<img src={useBaseUrl('img/quickStart/9.1.gif')} alt="Quick start - 9.1" height="330px"/>
 </p>
 
 ### 2.2. Getting output
 
 <p align="center">
-<img src={useBaseUrl('img/quickStart/10.png')} alt="Quick start - 07"/>
+<img src={useBaseUrl('img/quickStart/10.png')} alt="Quick start - 07" height={imageSize}/>
 </p>
 
 <p align="justify">

@@ -11,8 +11,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 <p align="justify">
-EzGitDoc allows to generate <code>*.md</code> file structure within projected prototype at <a href="https://trolit.github.io/EzGitDoc/"><em>https://trolit.github.io/EzGitDoc/</em></a>. You don't need to install anything as the project is setup and ready to use on github-pages. Every element's data can be modified after rendering it on page except <em>image/kbd/linked kbd table</em>(still with those table types you can quickly change images resolutions). Make prototype of your document, fill in data whenever you want, get output and polish it to your needs. Don't waste time on creating elements from scratch, finding bug or modifying old scheme from different repository. Try EzGitDoc and create documentation you will like :)
+EzGitDoc allows to generate repository documentation projected prototype at <a href="https://trolit.github.io/EzGitDoc/"><em>https://trolit.github.io/EzGitDoc/</em></a>. You don't need to install anything as the project is setup and ready to use. Every element's data can be modified after rendering it on page, except <em>image/kbd/linked kbd tables</em>(still with those table types you can quickly change images resolutions to not do it for single item). Make prototype of your document, fill in data whenever you want, get output and polish it to your needs. Don't waste time on creating elements from scratch, finding bug or modifying old scheme from different repository. Try EzGitDoc and create documentation you and your viewers would like to read. If you like the idea and want to help with making it more advanced, <strong>feel free to join!</strong>
 </p>
+
+## Used tools
 
 ### EzGitDoc 
 
@@ -37,7 +39,8 @@ EzGitDoc allows to generate <code>*.md</code> file structure within projected pr
 - <a href="https://freeicons.io/" target="_blank">SVG icons from Freeicons</a>
 - <a href="https://www.algolia.com/" target="_blank">Algolia</a> <a href="https://docsearch.algolia.com/" target="_blank">DocSearch</a> 
 - <a href="https://facebookincubator.github.io/infima/" target="_blank">Infima</a>
-### License
+
+## License
 
 <small>
 
