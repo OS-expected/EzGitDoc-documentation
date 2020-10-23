@@ -37,6 +37,35 @@ export const Changed = ({children}) => ( <span style={{
     paddingRight: '5rem',
 }}>{'changes'}</span> );
 
+### v1.7.6 (23.10.2020)
+
+<Changed></Changed> 
+
+```
+- Moved theme related code to ezSettings script
+- Optimized some JS code(ezSettings, ezUpdateLogic)
+- Reduced images resolutions for image type tables to 100x80
+- Changed modal id from arrayUpdateModal to textTableUpdateModal
+- Extended theme-raw-dark to be eligible for making custom themes 
+```
+
+<Added></Added> 
+
+```
+- Added localStorage for ezSettings to save user preferences
+- Added to References modal feature to move elements positions using pushpin icon
+- Added font size setting with 3 options(60%, 80%, 100%)
+```
+
+<Fixed></Fixed>
+
+```
+- Fixed resetting image alignment after turning on/off "nonspaced elements" setting
+- Fixed active header type highlighting in header update modal
+```
+
+<hr/>
+
 ### v1.7.5.1 (18.10.2020)
 
 <Fixed></Fixed>
