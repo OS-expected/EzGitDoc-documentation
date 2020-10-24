@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 <p align="justify">
-EzGitDoc designer logic is split into more than one script file to make it easier to understand, maintain and view it's source code for potential contributors or viewers. In this article, you will find out responsibilities for each script created in EzGitDoc.
+  EzGitDoc designer logic is split into more than one script file to make it easier to understand, maintain and view it's source code for potential contributors or viewers. In this article, you will find out responsibilities for each script created for  EzGitDoc.
 </p>
 
 ### ezBtnController.js
