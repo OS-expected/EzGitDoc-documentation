@@ -35,7 +35,7 @@ module.exports = {
         {
           label: 'Docs',
           position: 'left',
-          to: 'about'
+          to: 'docs'
         },
         {
           label: 'Projects',
@@ -45,7 +45,7 @@ module.exports = {
         {
           label: 'DEV',
           position: 'left',
-          to: 'start'
+          to: 'dev',
         },
         {
           label: 'Changelog',

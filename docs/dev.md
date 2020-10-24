@@ -1,7 +1,7 @@
 ---
 id: doc6
 title: JS structure
-slug: /start
+slug: /dev
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

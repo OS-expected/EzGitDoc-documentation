@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Support
-slug: /support
+slug: /docs/support
 ---
 
 #### Browser

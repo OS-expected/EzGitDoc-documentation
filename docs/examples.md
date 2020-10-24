@@ -1,7 +1,7 @@
 ---
 id: doc4
 title: Examples
-slug: /examples
+slug: /docs/examples
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

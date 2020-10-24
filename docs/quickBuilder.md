@@ -1,7 +1,7 @@
 ---
 id: doc5
 title: Quickbuilder
-slug: /quickbuilder
+slug: /docs/quickbuilder
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

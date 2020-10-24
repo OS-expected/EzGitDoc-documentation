@@ -1,7 +1,7 @@
 ---
 id: doc7
 title: Custom theme
-slug: /custom-theme
+slug: /dev/custom-theme
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
