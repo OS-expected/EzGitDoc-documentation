@@ -18,7 +18,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 If you like the idea and would like to participate in making EzGitDoc better and more advanced for it's potential users, you are always welcome <span class="iconify" data-icon="cil:happy" data-inline="false"></span>. You can contribute to the solution by many ways. Some examples were listed below:
 </p>
 
-<span class="iconify" data-icon="zmdi:collection-item" data-inline="false"></span> Pick free tasks from Projects section <br/>
+<span class="iconify" data-icon="zmdi:collection-item" data-inline="false"></span> Pick free tasks from Tasks section <br/>
 <span class="iconify" data-icon="zmdi:collection-item" data-inline="false"></span> Create RTU templates with EzGitDoc <br/>
 <span class="iconify" data-icon="zmdi:collection-item" data-inline="false"></span> Implement new features <br/>
 <span class="iconify" data-icon="zmdi:collection-item" data-inline="false"></span> Optimize code <br/>
