@@ -13,5 +13,5 @@ It is recommended to use modern browser in order to get maximum functionality ou
 #### Device
 
 <p align="justify">
-EzGitDoc user interface(UI) is built with MDBootstrap framework that allows to make the page react very nice on different screens(act responsively). However, the project was created with purpose to be used on devices like PC, notebooks. The most effective(quick and comfortable) way to use EzGitDoc will be through device with bigger screen than e.g. smartphone to develop repository documentation.
+EzGitDoc user interface(UI) is built with <span class="badge badge--primary">MDBootstrap</span> framework that allows to make the page react very nice on different screens(act responsively). However, the project was created with purpose to be used on devices like PC, notebooks. The most effective(quick and comfortable) way to use EzGitDoc will be through device with bigger screen than e.g. smartphone to develop repository documentation.
 </p>
