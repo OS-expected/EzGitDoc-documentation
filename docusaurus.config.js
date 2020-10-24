@@ -38,7 +38,7 @@ module.exports = {
           to: 'docs'
         },
         {
-          label: 'Tasks',
+          label: 'Projects',
           position: 'left',
           href: 'https://github.com/trolit/EzGitDoc/projects'
         },
