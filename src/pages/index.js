@@ -138,7 +138,7 @@ function Home() {
                   Unique, open source designer with personal ideas. Develop documentation for your repository with <strong>more clicking than writing</strong> approach. EzGitDoc generates code for you :)
                 </p>
                 <Link
-                  to={useBaseUrl('about')}
+                  to={useBaseUrl('docs')}
                   className={styles.getStartedBtn}>
                   <AwesomeButton
                     ripple={false}
