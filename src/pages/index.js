@@ -44,7 +44,7 @@ const features = [
     description: (
       <>
         EzGitDoc has extensive documentation about changes, explanations and examples. If you 
-        need help, feel free to contact or leave issue <a href="https://github.com/trolit/EzGitDoc/issues" target="_blank">here</a>
+        need help, feel free to contact or leave issue <a href="https://github.com/OS-expected/EzGitDoc/issues" target="_blank">here</a>
       </>
     ),
   },
@@ -155,7 +155,7 @@ function Home() {
                     size="small"
                     type="github"
                     className={styles.runToolBtn}
-                    href="https://trolit.github.io/EzGitDoc/"
+                    href="https://os-expected.github.io/EzGitDoc/"
                     target="_blank"
                 >
                     EzGitDoc

@@ -1,7 +1,7 @@
 module.exports = {
   title: 'EzGitDoc',
   tagline: 'documentation',
-  url: 'https://trolit.github.io',
+  url: 'https://os-expected.github.io',
   baseUrl: '/EzGitDoc-documentation/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
