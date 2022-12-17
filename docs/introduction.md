@@ -47,7 +47,7 @@ EzGitDoc allows to generate repository documentation projected prototype at <a h
 <small>
 
 ```
-Copyright (c) 2020 Paweł Idzikowski
+Copyright (c) 2020 p4w31 !d21k0w541
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
 associated documentation files (the "Software"), to deal in the Software without restriction, 
